@@ -1,0 +1,234 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.navigation{
+    background-color: #07154C;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.navigation a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+ .first-link{
+    color: #14AE3B;
+}
+.second-link{
+    color: #FFFFFF;
+}
+.main-heading{
+    font-size: 45px;
+    
+    margin: 20px 0;
+    
+}
+.heading{
+    text-align: center;
+}
+.sub-heading{
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: #99D8CA;
+    border: 10px solid #5873E2;
+    margin: 0 auto;
+    outline: 5px solid black;
+    box-shadow: 0 0 0 20px #90FFA9;
+    border-radius: 8px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: #99D8CA;
+    outline: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.container{
+    margin-top: 40px;
+}
+.border{
+    background-color: #0D1430;
+}
+.outline{
+    background-color: #90FFA9;
+}
+.box-shadow{
+    background-color: #5873E2;
+}
+.marker{
+    display: inline-block;
+    margin: 0 12px;
+}
+hr{
+    width: 500px;
+    border: 1px dashed #A0A3A2;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.parent-div{
+    width: 660px;
+    border: 2px solid #101837;
+    margin: 0 auto;
+    font-size: 0;
+}
+.child{
+    width: 200px;
+    height: 80px;
+    margin: 10px;
+    background-color: #DAE0FA;
+    display: inline-block;
+    
+    
+}
+.second{
+    border: 1px solid #101837;
+    box-sizing: border-box;
+}
+/* Blog styles */
+.blog-container{
+    width: 1445px;
+    display: flex;
+   
+}
+.col1{
+    margin-top: 20px;
+}
+.left-image{
+    height: 300px;
+    width: 380px;
+    margin-left: 320px;
+    margin-top: 13px;
+}
+
+.blog-heading{
+    font-size: 30px;
+    color: #061345;
+    width: 500px;
+   
+}
+.content{
+    margin-left: 30px;
+    
+}
+.para1{
+    width: 400px;
+}
+button{
+    color: white;
+    background-color: #14AE3B;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    
+}
+.left-image1{
+    height: 300px;
+    width: 380px;
+    margin-left: 320px;
+    
+}
+.right-image{
+    height: 300px;
+    width: 400px;
+    margin-left: 10px;
+
+}
+
+.second-heading{
+    font-size: 25px;
+    margin-left: 320px;
+    margin-top: 10px;
+    color: #061345;
+    
+}
+.third-heading{
+    margin-left: 25px;
+    font-size: 25px;
+    margin-top: 10px;
+    width: 400px;
+    color: #061345;
+    
+  
+}
+.para2{
+    width: 400px;
+    line-height: 1.5;
+    margin-left: 320px;
+    margin-bottom: 10px;
+    
+}
+.second-button{
+    margin-left: 320px;
+    font-size: 20px;
+    color:#15BA3A;
+}
+.para3{
+    width: 400px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.third-button{
+    font-size: 20px;
+    color:#15BA3A;
+    margin-left: 30px;
+
+}
